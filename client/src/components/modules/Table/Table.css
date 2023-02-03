@@ -1,0 +1,31 @@
+.table_container{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.table_container table, th, td,tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table_container table{
+    width: 100%;
+    text-align: left;
+}
+
+.table_container th{
+    height: 40px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.table_container td{
+    height: 40px;
+    padding: 10px;
+}
+
+.table_container tr:hover{
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
